@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <carriers>
+            <wkcustomshipping>
+                <active>1</active>
+                <allowed_methods>delivery</allowed_methods>
+                <methods>delivery</methods>
+                <sallowspecific>1</sallowspecific>
+                <specificcountry>IN</specificcountry>
+                <specificstate>KL</specificstate>
+                <model>Ceymox\CustomShipping\Model\Carrier</model>
+                <name>custom Shipping</name>
+                <title>custom Shipping</title>
+                <handling_type>F</handling_type>
+            </wkcustomshipping>
+        </carriers>
+    </default>
+</config>
